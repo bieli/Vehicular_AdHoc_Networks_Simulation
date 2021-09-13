@@ -95,7 +95,7 @@ rect2 = plt.Rectangle(bounds2[::2],
 ax.add_patch(rect2)
 
 # other subplots
-ax2 = fig.add_subplot(223,adjustable='box-forced',
+ax2 = fig.add_subplot(223,adjustable='box',
                       xlim=(0.0,scenario.TOTAL_SIM_TIME),
                       ylim=(0.0,1.0))
 ax3 = fig.add_subplot(224,
