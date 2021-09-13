@@ -178,7 +178,7 @@ class Scenario(object):
                 vehicle.setup_communication_terminal(False)
                 
             self.right_pool.append(lane_pool)
-        print "successfully set up the right vehicle pool!"
+        print("successfully set up the right vehicle pool!")
         
         # the left pool
         direct_flag = 2
@@ -215,7 +215,7 @@ class Scenario(object):
                 
             self.left_pool.append(lane_pool)
 
-        print "successfully set up the left vehicle pool!"
+        print("successfully set up the left vehicle pool!")
         self.infected_ratio = 1.0*len(self.current_message_carrier)/(1.0*sum([len(self.right_pool[lane_ID]) for lane_ID in range(self.LANE_NUM_PER_DIRECT)]) \
         +1.0*sum([len(self.left_pool[lane_ID]) for lane_ID in range(self.LANE_NUM_PER_DIRECT)]))
 
