@@ -1,5 +1,5 @@
-# Vehicular_AdHoc_Networks_Simulation
-Copyright (C) Thu Aug 25 00:11:08 2016  Jianshan Zhou
+# Vehicular AdHoc Networks Simulation
+Copyright (C) Thu Aug 25 00:11:08 2016  Jianshan Zhou - upgraded after ~5yrs by `bieli`
 
 Contact: zhoujianshan@buaa.edu.cn	jianshanzhou@foxmail.com
 
